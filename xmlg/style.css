@@ -1,0 +1,170 @@
+/**
+ * Declaraciones Generales
+ */
+body{ background: url(images/body_bg.gif) repeat; line-height: 1.5em; background-color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; }
+a{ color: #996699; text-decoration: none; }
+a:hover{ color: #000000; text-decoration: underline; }
+h1 {font-size: 20px;}
+h2 {font-size: 18px;}
+h3 {font-size: 16px;}
+h4 {font-size: 14px;}
+form {margin: 0px; padding: 0px;}
+ul {margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li {margin-left: 2px; list-style: square inside; color: #000000; background-color: transparent;}
+b {font-weight: bold;}
+img {border: 0px;}
+hr {height: 3px; border: 2px #9999FF solid; filter: Alpha(Opacity=100,FinishOpacity=10,Style=2); width: 100%;}
+input{ font-size: 11px; border: 1px solid #F8EBBE; }
+
+
+/**
+ * Declaraciones del Encabezado
+ */
+.head_logo{ width: 150px; height: 134px; }
+.head_seplogo { width: 4px; }
+.head_left { width: 14px; height: 134px; text-align: left; background: url(images/head_bg_all.gif) repeat; }
+.head_body { background: url(images/head_bg.gif) repeat; vertical-align: middle; height: 96px;} 
+.head_foot { height: 38px; background: url(images/head_bg_b.gif) repeat; text-align: center; vertical-align: middle; color: #FFFFFF; }
+.head_foot a{ color: #FFFFFF; text-decoration: underline; }
+.head_foot2 { height: 38px; background: url(images/head_bg_foot.gif) repeat; width: 300px; text-align: center; vertical-align: middle;}
+.head_right { width: 16px; text-align: right; background: url(images/head_bg_all.gif) repeat; }
+
+/**
+ * Declaraciones de bloques personalizados
+ */
+td.custom_title{ background: url(images/custom/welcome_topbg.gif) repeat-x; font-weight: bold; color: #006699; text-transform: uppercase; vertical-align: middle; }
+td.custom_content{ border-left: 1px solid #CCCCFF; border-right: 1px solid #CCCCFF; padding: 4px; text-align: justify; vertical-align: top; color: #003366; }
+td.custom_bottom{ background: url(images/custom/welcome_bbg.gif) repeat-x; height: 7px; }
+
+/**
+ * Declaraciones para el tema. Bloques derechos
+ */
+.t_rblock{ width: 150px; padding: 0px; background: url(images/br_bg.gif) repeat-y; }
+.t_content { width: 746px; padding: 0px; vertical-align: top; }
+.t_content_content { background-color: #FFFFFF; vertical-align: middle; text-align: left; }
+.t_content_left { background: url(images/content_left.gif) repeat; width: 11px; }
+.t_content_right { background: url(images/content_right.gif) repeat; width: 11px; }
+.t_content_top { background: url(images/content_top.gif) repeat; height: 11px; }
+.t_content_bot{ background: url(images/content_bottom.gif) repeat; height: 11px; }
+.t_rtop { height: 11px; vertical-align: top; }
+.t_rbot { height: 11px; vertical-align: bottom;}
+.t_rcontent { padding-left: 4px; padding-right: 4px; vertical-align: top; color: #000000;}
+.t_rcontent a{ color: #000000; text-decoration: none;}
+.t_rcontent a:hover{ color: #9933CC; text-decoration: underline; }
+.t_rcontent .outer{ background-color: transparent; border: 0px; }
+.t_rcontent .even{ background-color: transparent; padding: 1px; }
+.t_rcontent .odd{ background-color: transparent; padding: 1px; }
+
+.t_green_link{  color: #006699; text-align: center; vertical-align: middle; font-weight: normal; }
+.t_green_link a{ color: #006699; text-decoration: underline;  }
+.t_green_link a:hover{ color: #9900CC; text-decoration: underline; }
+
+.t_login{ color: #FFFFFF; }
+.t_login a{ color: #FFFFFF; text-decoration: underline; }
+.t_login .textbox{ padding-left: 3px; border: 1px solid #99CC00; font-size: 11px; color: #99CC00; }
+.t_login .button{ width: 80px; padding: 2px; background-color: #55708D; font-size: 11px; color: #FFFFFF; border: 1px solid #FFFFFF; }
+.t_username{ font-size: 13px; color: #FFFFFF; }
+.t_adminpanel{ font-size: 11px; color: #FFFFFF; }
+.t_adminpanel a{ color: #FFFFFF; }
+
+.t_foot{ height: 60px; background: url(images/foot_bg.gif) repeat; color: #FFFFFF; }
+.t_foot a{ color: #FFFFFF; text-decoration: underline; }
+
+/**
+ * Formato de los Bloques
+ */
+.t_lblock{ width: 150px; padding: 0px; background: url(images/lb_bg.gif) repeat; }
+td.lbtitle{ 
+  height: 21px; vertical-align: middle; color: #000000; font-size: 11px; font-weight: bold; text-align: center;
+  background: url(images/rb_title_bg.gif) repeat;
+}
+
+td.lbcontent{
+	color: #4E6681;
+	font-weight: normal;
+	padding-left: 6px;
+	padding-right: 4px;
+}
+
+.rbcontent{
+	width: 150px;
+	text-align: left;
+	padding-right: 4px;
+	padding-left: 6px;
+}
+
+.rbcontent .outer{ background-color: transparent; border: 0px; padding: 0px; }
+.rbcontent .even{ padding: 1px; background-color: transparent;  }
+.rbcontent .odd{ padding: 1px; background-color: transparent;  }
+
+/** Banners **/
+.banner{ text-align: left; color: #FFFFFF; }
+.banner img{ border: 1px solid #FFFFFF; }
+
+/**
+ *Elementos de los formularios
+ */
+input{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #006699; padding: 2px; }
+input.textbox{ font-size: 11px; font-weight: normal; color: #9999cc; }
+input.button{ font-size: 11px; font-weight: normal; color: #9999cc; background-color: #FFFFFF; }
+select { font-size: 11px; font-weight: normal; color: #9966CC; border: 1px solid #9999CC; }
+textarea{ padding: 2px; color: #9966cc; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.formButton{ background-color: #ffffff; border: 1px solid #9966cc; }
+
+/**
+ * Definiciones estándar de XOOPS
+ */
+.outer{ border: 0px;; padding: 0px; }
+.navtext {font-size:10px; vertical-align: middle;}
+.head { padding: 3px; border-bottom: 1px solid #ccccff; background: transparent; color: #000000; font-weight: bold; font-size: 12px; }
+.even { border-bottom: 1px solid #ccccff; background: transparent; padding: 4px;}
+.odd {border-bottom: 1px solid #ccccff; background: transparent; padding: 4px;}
+tr.even td {border-bottom: 1px solid #ccccff; background: transparent; padding: 4px;}
+tr.odd td {border-bottom: 1px solid #ccccff; background: transparent; padding: 4px;}
+.foot { border-bottom: 1px solid #ccccff; background-color: #fff1b9; padding: 5px; font-weight: bold; font-size: 10px;}
+th { border-bottom: 2px solid #FFCC00; background-color: #fff1b9; color: #000000; padding: 4px; vertical-align: middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+th a{ color: #000000; }
+
+/* Code and Quote Definition */
+div.xoopsCode { width: 90%; font-family: "Courier New", Courier, mono; padding: 3px; font-size: 12px; color: #0066CC; background-color: #FCFAEB; border: 1px dashed #CCCCFF;}
+div.xoopsQuote { width: 90%; padding: 3px; font-size: 12px; color: #0066cc; line-height: 125%; text-align: left; background-color: #fcfaeb; border: 1px solid #CCCCFF;}
+
+td.lbtitleG{
+  color: #000000; font-size: 11px; font-weight: bold; text-align: center;
+  background: url(images/br_title.gif) repeat-x;
+  height: 22px;
+}
+
+.comDate {font-weight: normal; font-style: normal; font-size: 0.85em; }
+.comDateCaption{ font-size: 10px; color: #666666; text-align: right; border: 1px solid #FFFFFF; }
+.comTitle a { text-decoration: none; }
+.comTitle {font-size: 120%;font-weight: bold;text-decoration: none;margin: 0px 0px .2em 0px;padding: 3px 3px 3px 3px; background-color: #F4EFB3;}
+.comText {/*position: relative;margin: 5px 5px 5px 15px;left: 120px;float: left;*/line-height: 1.5em;padding: 4px;}
+.comUserStat {font-size: 10px; color: #436792; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: bold;}
+.comUserStatus {color: #436792; font-weight:bold;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comUserdetails {float: left;/*position: relative;top: 50px;left: 10px;*/font-size: 0.85em;border: 1px solid #d0d0e0;background-color: #FFFFFF;padding: 3px;/*margin: 5px 5px 5px 5px;*/text-align: center;margin: 5px 10px 5px 0px;z-index: 0; color: #FF9900; }
+.comUserName {font-weight: bold;font-size: 110%;}
+
+.comIcons {float: right;position: relative;font-size: 0.85em;top: -22px;right: 5px;}
+
+.comContainer { width: 100%; padding: 3px; background-color: #F9F9F9;border: 1px solid #D0D0E0;position: relative;margin-bottom: 10px;z-index: 0;}
+div.xoopsCode pre {margin: 0px;}
+div.xoopsQuote blockquote {margin: 0px;}
+
+/* News module definitions */
+.item{ border: 0px; width: 100%; margin-bottom: 15px; }
+.itemHead{ color: #9999FF; padding: 3px; border-bottom: 3px solid #9999FF; background: transparent; font-weight: bold; font-size: 1.5em; }
+.itemHead a{ color: #9999FF; }
+.itemInfo{font-size: 10px; text-align: right; padding: 3px; border-bottom: 1px solid #ccccff; }
+.itemBody{ font-family: Verdana, Arial, Helvetica, sans-serif; padding: 3px; text-align: justify; vertical-align: top; border-bottom: 1px solid #ccccff; }
+.itemText{ line-height: 1.5em; }
+.itemText img{ margin: 3px; }
+.itemBody img{ margin: 3px; }
+.itemFoot{ background-color: #F9F4C1; border-bottom: 1px solid #cccccc; font-size: 10px; text-align: right;  padding: 3px; }
+
